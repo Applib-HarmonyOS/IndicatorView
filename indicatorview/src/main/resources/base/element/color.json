@@ -1,0 +1,12 @@
+{
+  "color": [
+    {
+      "name": "default_active_color",
+      "value": "#FFFFFFFF"
+    },
+    {
+      "name": "default_inactive_color",
+      "value": "#4D000000"
+    }
+  ]
+}
