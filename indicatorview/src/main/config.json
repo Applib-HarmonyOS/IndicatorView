@@ -1,0 +1,23 @@
+{
+  "app": {
+    "bundleName": "io.github.kshitij_jain.circularindicatorview",
+    "vendor": "github",
+    "version": {
+      "code": 1000000,
+      "name": "1.0.0"
+    }
+  },
+  "deviceConfig": {
+  },
+  "module": {
+    "package": "io.github.kshitij_jain.indicatorview",
+    "deviceType": [
+      "phone"
+    ],
+    "distro": {
+      "deliveryWithInstall": true,
+      "moduleName": "indicatorview",
+      "moduleType": "har"
+    }
+  }
+}

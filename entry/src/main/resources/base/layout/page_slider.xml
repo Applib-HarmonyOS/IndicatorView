@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:orientation="vertical">
+    <Text
+        ohos:id="$+id:page_slider_text"
+        ohos:height="match_parent"
+        ohos:width="match_parent"
+        ohos:text_alignment="center"
+        ohos:text_color="$color:white"
+        ohos:text_font="HwChinese-medium"
+        ohos:text_size="32vp"
+        ohos:background_element="$graphic:background_page_slider"/>
+
+</DirectionalLayout>

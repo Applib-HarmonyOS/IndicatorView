@@ -1,0 +1,28 @@
+{
+  "string": [
+    {
+      "name": "app_name",
+      "value": "IndicatorView"
+    },
+    {
+      "name": "mainability_description",
+      "value": "Java_Phone_Empty Feature Ability"
+    },
+    {
+      "name": "mainability_HelloWorld",
+      "value": "Hello World"
+    },
+    {
+      "name": "button_text_next",
+      "value": "NEXT"
+    },
+    {
+      "name": "button_text_skip",
+      "value": "SKIP"
+    },
+    {
+      "name": "button_text_start",
+      "value": "START"
+    }
+  ]
+}
