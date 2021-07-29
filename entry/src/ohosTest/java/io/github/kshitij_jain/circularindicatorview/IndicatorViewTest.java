@@ -10,10 +10,9 @@ import static org.junit.Assert.assertEquals;
 
 public class IndicatorViewTest {
 
-  final private transient Context context =
+  private final Context context =
       AbilityDelegatorRegistry.getAbilityDelegator().getAppContext();
-
-  final private transient IndicatorView indicatorView = new IndicatorView(context);
+  private final IndicatorView indicatorView = new IndicatorView(context);
 
   @Test
   public void testBundleName() {

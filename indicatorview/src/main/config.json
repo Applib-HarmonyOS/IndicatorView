@@ -1,5 +1,9 @@
 {
   "app": {
+    "apiVersion": {
+      "target": 5,
+      "compatible": 5
+    },
     "bundleName": "io.github.kshitij_jain.circularindicatorview",
     "vendor": "github",
     "version": {
