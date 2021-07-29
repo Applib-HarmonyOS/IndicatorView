@@ -52,12 +52,12 @@ public class MainAbilitySlice extends AbilitySlice {
     pageSlider.addPageChangedListener(new PageSlider.PageChangedListener() {
       @Override
       public void onPageSliding(int i, float v, int i1) {
-
+        // Handle page sliding
       }
 
       @Override
       public void onPageSlideStateChanged(int i) {
-
+        // Handle page slide state changed
       }
 
       @Override

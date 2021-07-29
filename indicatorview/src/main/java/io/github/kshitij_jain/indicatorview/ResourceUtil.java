@@ -15,6 +15,10 @@ import ohos.global.resource.WrongTypeException;
  */
 class ResourceUtil {
 
+  private ResourceUtil() {
+    // Private constructor
+  }
+
   /**
    * Get Color defined in resource ID.
    *

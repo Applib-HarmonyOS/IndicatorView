@@ -21,9 +21,9 @@ buildscript {
         jcenter()
     }
     dependencies {
-        classpath 'com.huawei.ohos:hap:2.4.4.2'
+        classpath 'com.huawei.ohos:hap:2.4.2.7'
         classpath 'com.huawei.ohos:decctest:1.0.0.7'
-		classpath "org.sonarsource.scanner.gradle:sonarqube-gradle-plugin:3.3"
+        classpath "org.sonarsource.scanner.gradle:sonarqube-gradle-plugin:3.3"
     }
 }
 
@@ -37,29 +37,29 @@ allprojects {
         }
         jcenter()
     }
-	task checkstyle(type: Checkstyle) {
-       showViolations = true
-       configFile file("huawei/config/checkstyle.xml")
-  
-       source 'entry/src/main/java'
-       source 'circularprogressview/src/main/java'
-       include '**/*.java'
-  
-       // empty classpath
-       classpath = files()
-	}
+    task checkstyle(type: Checkstyle) {
+        showViolations = true
+        configFile file("huawei/config/checkstyle.xml")
+
+        source 'entry/src/main/java'
+        source 'circularprogressview/src/main/java'
+        include '**/*.java'
+
+        // empty classpath
+        classpath = files()
+    }
 }
 
 checkstyle {
-	toolVersion "8.43"
+    toolVersion "8.43"
 }
 
 sonarqube {
-  properties {
-    property "sonar.projectKey", "applibgroup_IndicatorView"
-    property "sonar.organization", "applibgroup"
-    property "sonar.host.url", "https://sonarcloud.io"
-    property "sonar.sources", "entry,indicatorview"
-    property "sonar.java.binaries", "entry/build,indicatorview/build"
-  }
+    properties {
+        property "sonar.projectKey", "applibgroup_IndicatorView"
+        property "sonar.organization", "applibgroup"
+        property "sonar.host.url", "https://sonarcloud.io"
+        property "sonar.sources", "entry,indicatorview"
+        property "sonar.java.binaries", "entry/build,indicatorview/build"
+    }
 }

@@ -12,6 +12,10 @@ import ohos.agp.utils.Color;
  */
 class AttrUtil {
 
+  private AttrUtil() {
+    // Private constructor
+  }
+
   /**
    * Get color attribute defined in "attrSet" with "name". If not set returns "defaultColor".
    *
