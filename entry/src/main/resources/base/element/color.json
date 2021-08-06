@@ -1,0 +1,20 @@
+{
+  "color": [
+    {
+      "name": "blue",
+      "value": "#FF0000FF"
+    },
+    {
+      "name": "white",
+      "value": "#FFFFFFFF"
+    },
+    {
+      "name": "gray",
+      "value": "#FF3C3C3C"
+    },
+    {
+      "name": "black",
+      "value": "#FF000000"
+    }
+  ]
+}
