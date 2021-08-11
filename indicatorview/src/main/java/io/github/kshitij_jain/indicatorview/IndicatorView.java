@@ -8,7 +8,7 @@ import ohos.agp.utils.Color;
 import ohos.app.Context;
 
 /**
- * Custom component to add an indicator to show current Page in a PageSlider.
+ * Created by flash on 21/2/17.
  */
 public class IndicatorView extends Component implements Component.DrawTask,
     Component.EstimateSizeListener {
