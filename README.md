@@ -36,7 +36,8 @@ Allows customizing the indicator dot size, active and inactive color.
 3. For using IndicatorView module from a remote repository in your application, add the below dependencies in entry/build.gradle file.
 
 ```
-TO BE UPDATED
+ implementation 'dev.applibgroup:indicatorview:1.0.0'
+ testImplementation 'junit:junit:4.13'
 ```
 
 ## Usage
